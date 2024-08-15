@@ -468,7 +468,6 @@ Media Query
         max-width: 100%;
         margin-left: 0px;
         margin-right: 0px;
-
     }
 
 
@@ -481,8 +480,10 @@ Media Query
     }
 
     .container-contato {
-     padding: 3em 2em;
-        box-sizing: border-box;        
+        padding: 3em 2em;
+        box-sizing: border-box;
+        margin: 0px;
+        width: 100%;
     }
 
 }
