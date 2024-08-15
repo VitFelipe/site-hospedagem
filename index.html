@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VT-Host</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="navbar-container">
+            <nav>
+                <a href="#"><img alt="logo" class="logo" src="./img/hdchostlogo.png" /></a>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Planos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li class="btn-entrar"><a href="#">Entrar</a></li>
+                    <div class="menu-mobile">
+                        <a class="btn-mobile"> <i class="fa-solid fa-bars"></i></a>
+                    </div>
+                </ul>
+            </nav>
+            <div class="main-banner">
+                <h1>VT Hospedagem</h1>
+                <p>Os melhores planos para qualquer tipo de projeto</p>
+            </div>
+        </header>
+        <main>
+            
+            <section class="specialties-container">
+                <ul class="lista-especificacao">
+                    <li><i class="fas fa-shield-alt"></i>
+                        <h3>Segurança</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet sapien eu augue tempus
+                            mollis a sed ex. Curabitur posuere ante et vestibulum sagittis. Nullam in luctus quam.</p>
+                    </li>
+                    <li><i class="fas fa-rocket"></i>
+                        <h3>Velocidade</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet sapien eu augue tempus
+                            mollis a sed ex. Curabitur posuere ante et vestibulum sagittis. Nullam in luctus quam.</p>
+                    </li>
+
+                    <li><i class="fas fa-comment"></i>
+                        <h3>Suporte</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet sapien eu augue tempus
+                            mollis a sed ex. Curabitur posuere ante et vestibulum sagittis. Nullam in luctus quam.</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="section-plano">
+                <h2>Planos e Preços</h2>
+                <p>Escolha o melhor plano para sua empresa</p>
+                <div class="container-plano">
+                    <ul class="plano">
+                        <li class="preco-plano" >R$ 15,00 / Mês</li>
+                        <li class="nome-plano">Normal</li>
+                        <li>2Gb de disco</li>
+                        <li>10 sub-domínios</li>
+                        <li>10 contas de e-mail</li>
+                        <li>
+                            Suporte 24/7
+                        </li>
+                        <li class="btn-selecao">
+                            Selecionar
+                        </li>
+                    </ul>
+                    <ul class="plano">
+                        <li class="preco-plano">R$ 15,00 / Mês</li>
+                        <li class="nome-plano" >Dedicado</li>
+                        <li>5Gb de disco</li>
+                        <li>20 sub-domínios</li>
+                        <li>20 contas de e-mail</li>
+                        <li>
+                            Suporte 24/7
+                        </li>
+                        <li class="btn-selecao">
+                            Selecionar
+                        </li>
+                    </ul>
+                    <ul class="plano">
+                        <li class="preco-plano">R$ 15,00 / Mês</li>
+                        <li class="nome-plano">Dedicado Plus</li>
+                        <li>10Gb de disco</li>
+                        <li>50 sub-domínios</li>
+                        <li>50 contas de e-mail</li>
+                        <li>
+                            Suporte 24/7
+                        </li>
+                        <li class="btn-selecao" >
+                           Selecionar
+                        </li>
+                    </ul>
+                    <ul class="plano">
+                        <li class="preco-plano">R$ 15,00 / Mês</li>
+                        <li class="nome-plano">Cloud</li>
+                        <li>20Gb de disco</li>
+                        <li>100 sub-domínios</li>
+                        <li>100 contas de e-mail</li>
+                        <li>
+                            Suporte 24/7
+                        </li>
+                        <li class="btn-selecao" >
+                          Selecionar
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+            <section class="section-busca-dominio">
+                <div class="container-busca">
+                    <h2>Busca de domímio</h2>
+                    <p>Veja se o domínio que você deseja está disponível</p>
+                    <input name="name-dominio" type="text" placeholder="Digite seu domínio" />
+                    <input type="submit" name="btn-enviar-busca" value="Buscar domínio" />
+                </div>
+            </section>
+            <section class="section-contato">                
+                <h2>Entre em Contato</h2>
+                <p>Caso queira, entre em contato com a nossa equipe para mais informações</p>
+                <div class="container-contato">
+                    <input name="nome" placeholder="Digite seu nome" type="text" />
+                    <input name="email" type="email" placeholder="Digite seu e-mail" />
+                    <textarea name="mensagem" placeholder="Digite sua mensagem"></textarea>
+                    <input type="submit" value="Enviar" />
+            </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <h3>HoradeCodar@2020</h3>
+    </footer>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
